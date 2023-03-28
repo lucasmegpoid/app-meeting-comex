@@ -42,7 +42,7 @@ cadastrar();
 // FUNÇÃO DE REQUISIÇÃO PADRÃO
 function ThefetchAPI(url, method) {
     return new Promise((resolve, reject) => {
-      fetch(url, {
+      fetch('https://cors-anywhere.herokuapp.com/'+url, {
         method: method,
         headers: {'Content-Type': 'application/json'},
       })
