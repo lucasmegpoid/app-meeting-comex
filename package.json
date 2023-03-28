@@ -1,13 +1,13 @@
 {
   "name": "app-meeting-comex",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
